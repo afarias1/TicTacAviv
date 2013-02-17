@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    tools:context=".MainActivity" >
+
+    <!--  Space Filler -->
+    <LinearLayout
+        
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+                    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        
+        <ImageButton 
+            android:id="@+id/button_0_0"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:onClick="buttonOnClick"
+            android:text="@string/Blank"
+             android:scaleType="fitCenter"
+            />
+        
+        <ImageButton 
+            android:id="@+id/button_0_1"
+            android:layout_height= "200dp"
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:onClick="buttonOnClick"
+            android:scaleType="fitCenter"
+            />
+            <!--android:text="@string/Blank"  --> 
+            
+        
+        <ImageButton 
+            android:id="@+id/button_0_2"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:onClick="buttonOnClick"
+            android:text="@string/Blank"
+            android:scaleType="fitCenter"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        
+        <ImageButton 
+            android:id="@+id/button_1_0"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:onClick="buttonOnClick"
+            android:text="@string/Blank"
+            android:scaleType="fitCenter"
+            />
+        
+        <ImageButton 
+            android:id="@+id/button_1_1"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:onClick="buttonOnClick"
+            android:text="@string/Blank"
+            android:scaleType="fitCenter"
+            />
+        
+        <ImageButton 
+            android:id="@+id/button_1_2"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:onClick="buttonOnClick"
+            android:text="@string/Blank"
+            android:scaleType="fitCenter"
+            />
+        
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="buttonOnClick"
+        android:orientation="horizontal" >
+        
+        
+        <ImageButton 
+            android:id="@+id/button_2_0"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:onClick="buttonOnClick"
+            android:text="@string/Blank"
+            android:scaleType="fitCenter"
+            />
+        
+        <ImageButton 
+            android:id="@+id/button_2_1"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:onClick="buttonOnClick"
+            android:text="@string/Blank"
+            android:scaleType="fitCenter"
+            />
+        
+        <ImageButton 
+            android:id="@+id/button_2_2"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:onClick="buttonOnClick"
+            android:text="@string/Blank"
+            android:scaleType="fitCenter"
+            />
+        
+    </LinearLayout>
+    
+   
+    <!--  Space Filler -->
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        
+         <TextView 
+        android:id="@+id/tv_score_Eclipse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+          android:text ="@string/Eclipse"
+        />
+         
+        <TextView 
+        android:id="@+id/tv_score_cs71"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text ="@string/CS71"
+        />              
+    </LinearLayout>
+    
+    
+</LinearLayout>
